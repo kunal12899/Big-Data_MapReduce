@@ -10,8 +10,7 @@
 	import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
     import org.apache.hadoop.util.GenericOptionsParser;
 	        
-	public class Question2 {
-	    
+	public class Question2 {	    
 	    public static class Map extends Mapper<LongWritable, Text, Text, DoubleWritable>{
 	    	
 	    	private Text mapKey = new Text();  // type of output key
